@@ -10,7 +10,10 @@ Only one byte(0~255) can be used
 
 
 # 1.  HEX CODE: **0x01 to 0x64** (0~100)
-**ACTION:** Sets the Fan's Duty Cycle from 0%~100%.
+**ACTION:** Sets the Fan's Duty Cycle from 0%~100%. 
+
+NOTE: FAN only starts turning at 10% power input.
+
 
 # 2. HEX CODE: 0x00
 **ACTION:** Turns OFF the FAN.
