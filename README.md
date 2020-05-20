@@ -28,7 +28,7 @@ Set the ARGON ONE to Mode 1：
 
 
 # 4.  HEX CODE: 0xfe
-Set the ARGON ONE to mode 2：
+Set the ARGON ONE to Mode 2：
 
 **ACTION:** Sets "Always ON Mode"
 
