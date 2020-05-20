@@ -16,6 +16,7 @@ Only one byte(0~255) can be used
 
 # 3.  HEX CODE: 0xfd
 Set the ARGON ONE to Mode 1：
+
 **ACTION:** Sets "Default Mode"
 
 **Behaviour:** You need to PRESS button to Power ON from shutdown or power outage.
@@ -23,6 +24,7 @@ Set the ARGON ONE to Mode 1：
 
 # 4.  HEX CODE: 0xfe
 Set the ARGON ONE to mode 2：
+
 **ACTION:** Sets "Always ON Mode"
 
 **Behaviour:** Power current will flow directly to Raspberry Pi. NO need to PRESS button to power ON from shutdown or power outage.
