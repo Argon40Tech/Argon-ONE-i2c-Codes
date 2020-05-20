@@ -1,7 +1,7 @@
 # Argon-ONE-i2c-Codes
 This is a list of i2c Codes utilized by Argon ONE Raspberry Pi Cases. 
 
-NOTE: Operating system should have necessary libraries to control the Raspberry Pi GPIO.
+**NOTE:** Operating system should have necessary libraries to control the Raspberry Pi GPIO.
 
 # Device Address：**0x1a**
 
@@ -12,7 +12,7 @@ Only one byte(0~255) can be used
 # 1.  HEX CODE: **0x01 to 0x64** (0~100)
 **ACTION:** Sets the Fan's Duty Cycle from 0%~100%. 
 
-NOTE: FAN only starts turning at 10% power input.
+**NOTE:** FAN only starts turning at 10% power input.
 
 
 # 2. HEX CODE: 0x00
