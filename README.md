@@ -3,7 +3,7 @@ This is a list of i2c Codes utilized by Argon ONE Raspberry Pi Cases.
 
 NOTE: Operating system should have necessary libraries to control the Raspberry Pi GPIO.
 
-# Device Address：**0x34**
+# Device Address：**0x1a**
 
 Write Command
 Only one byte(0~255) can be used
