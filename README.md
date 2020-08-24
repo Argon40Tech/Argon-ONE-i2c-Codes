@@ -6,8 +6,10 @@ This is a list of i2c Codes utilized by Argon ONE Raspberry Pi Cases.
 
 # How to Send i2c Codes to the Argon ONE MCU
 
-Example:**Setting Argon ONE to Mode 2 (Always ON)**
+Example: **Setting Argon ONE to Mode 2 (Always ON)**
+
 Type in the Terminal the code below:
+
 
 i2cset -y 1 0x01a 0xfe
 
