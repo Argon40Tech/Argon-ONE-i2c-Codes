@@ -55,3 +55,13 @@ Set the ARGON ONE to Mode 2：
 **Behaviour:** When ARGON ONE receives 0xff，then ARGON ONE will check UART's voltage.
 Then, it will cut the power when UART's voltage is low.
 
+------
+| Function | GPIO Pin | Physical Pin | Note |
+|---|---|---|---|
+| Power Button | GPIO17 | 11 |   |
+| Shut Down Monitor (cut if no signal) | GPIO4 | 7 | Same pin as "Fan HAT Shutdown/Wake" |
+| IR Receive (in) | GPIO23 | 16 | Rev |
+| IR Transmit (out) | GPIO22 | 15 | Rev |
+| Fan Control (i2c) | GPIO0 / GPIO1 | 27 / 28 | ID EEPROM I2C pins |
+| Monitor for power cut (TXD) | GPIO14 | 8 | UART TX voltage monitored to detect shutdown |
+| Fan HAT Shutdown/Wake | GPIO4 | 7 | Same as Shut Down Monitor above |
